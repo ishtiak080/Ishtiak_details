@@ -1,0 +1,129 @@
+@font-face {
+    font-family: myFirstFont1;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+ }
+ @font-face {
+    font-family: myFirstFont2;
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+ }
+ @font-face {
+    font-family: myFirstFont3;
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+ }
+ .bold{
+    font-family: myFirstFont2;
+ }
+ .reguler{
+    font-family: myFirstFont3;
+ }
+body{
+    background-color: rgb(6, 6, 6);
+    color: white;
+}
+.button:hover{
+    background-color:rgb(184, 226, 99);
+    color: rgb(25, 24, 24);
+}
+.color{
+    color:rgb(184, 226, 99)
+}
+.color2{
+    color: #b6b2b2;
+}
+.gap{
+    padding-top: 3%;
+    padding-bottom: 3%;   
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px){
+    .main_part{
+        margin: 15% 10%;
+        text-align: center;
+        background-color: rgb(17, 17, 17);
+        padding: 1%;
+        border-radius: 10px;
+    }
+    .button{
+        text-decoration: none;
+        color: #d5d3d3;
+        background-color: rgb(46, 46, 46);
+        display:block;
+        margin: 3%;
+        padding: 4%;
+        border-radius: 10px;    
+    }
+    .pic{
+        border-radius: 100px;
+        width: 30%;
+    }
+}
+/* Media Query for tablet Devices */
+@media (min-width: 481px) and (max-width: 750px){
+    .main_part{
+        margin: 15% 15%;
+        text-align: center;
+        background-color: rgb(17, 17, 17);
+        padding: 1%;
+        border-radius: 10px;
+    }
+    .button{
+        text-decoration: none;
+        color: #d5d3d3;
+        background-color: rgb(46, 46, 46);
+        display:block;
+        margin: 3%;
+        padding: 4%;
+        border-radius: 10px;    
+    }
+    .pic{
+        border-radius: 100px;
+        width: 30%;
+    }
+}
+/* Media Query for tablet Devices */
+@media (min-width: 751px) and (max-width: 1280px){
+    .main_part{
+        margin: 15% 25%;
+        text-align: center;
+        background-color: rgb(17, 17, 17);
+        padding: 1%;
+        border-radius: 10px;
+    }
+    .button{
+        text-decoration: none;
+        color: #d5d3d3;
+        background-color: rgb(46, 46, 46);
+        display:block;
+        margin: 3%;
+        padding: 4%;
+        border-radius: 10px;    
+    }
+    .pic{
+        border-radius: 100px;
+        width: 30%;
+    }
+}
+/* Media Query for laptop Devices */
+@media (min-width: 1281px){
+    .main_part{
+        margin: 10% 35%;
+        text-align: center;
+        background-color: rgb(17, 17, 17);
+        padding: 1%;
+        border-radius: 10px;
+    }
+    .button{
+        text-decoration: none;
+        color: #d5d3d3;
+        background-color: rgb(46, 46, 46);
+        display:block;
+        margin: 3%;
+        padding: 4%;
+        border-radius: 10px;    
+    }
+    .pic{
+        border-radius: 100px;
+        width: 30%;
+    }
+}
